@@ -4,9 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FrostedGlassForDesktop"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        mc:Ignorable="d" Loaded="Window_Loaded" SizeChanged="Window_SizeChanged" LocationChanged="Window_LocationChanged"
+        Title="MainWindow" Height="474.789" Width="600.317">
     <Grid>
-        
+        <Canvas x:Name="canvas">
+            
+        </Canvas>
+        <Grid>
+            <Grid.Background>
+                <SolidColorBrush Color="White" Opacity="0.6"></SolidColorBrush>
+            </Grid.Background>
+        </Grid>
     </Grid>
 </Window>
